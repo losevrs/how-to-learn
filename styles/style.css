@@ -277,7 +277,7 @@
   margin-top: 80px;
 }
 
-/* Принципы по Кауфману выше **********************/
+/* Принципы по Кауфману выше */
 
 /* Подвал ниже */
 
@@ -289,26 +289,38 @@
   flex-direction: column;
 }
 
+.logo_place_footer {
+  width: 183px;
+  height: 35px;
+  background-image: url(../images/logo_place_footer.svg);
+  top: 0;
+  left: 0;
+}
+
+.footer__author {
+  margin: 18px 0;
+  bottom: 0;
+  left: 0;
+  z-index: 7;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 25px;
+}
+
 .footer__columns {
   width: 90%;
+  min-height: 250px;
   margin: 60px auto 40px auto;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  height: 200px;
 }
 
-.footer__columns_column_content_copyright {
+.footer__column_content_copyright {
   flex-basis: 711px;
-  position: relative;
   display: flex;
   flex-flow: column nowrap;
   justify-content: space-between;
-}
-
-.footer__social-icon {
-  display: inline;
-  margin-right: 10px;
 }
 
 .footer__column-heading {
@@ -330,36 +342,21 @@
   line-height: 30px;
 }
 
-.footer__column-link {
-  text-decoration: none;
-  color: white;
-  display: flex;
+.footer__social-icon {
+  display: inline;
+  margin-right: 10px;
+}
+
+.footer__list-item {
   list-style-type: none;
   margin: 0;
 }
 
-.footer__column-links_links:last-child {
-  margin-bottom: 0;
+.footer__column-link {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  margin: 0;
 }
 
-.logo_place_footer {
-  width: 183px;
-  height: 35px;
-  background-image: url(../images/logo_place_footer.svg);
-  top: 0;
-  left: 0;
-}
-
-.footer__author {
-  margin: 18px 0;
-  bottom: 0;
-  left: 0;
-  z-index: 7;
-  font-size: 18px;
-  font-weight: normal;
-  line-height: 25px;
-}
-
-/* Подвал ****************************************/
-
-/* V2.0 исправления */
+/* Подвал выше */
