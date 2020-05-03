@@ -1,3 +1,12 @@
+@keyframes rotation-anima {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
 /* Вся страница во всю ширину и высоту без отступов */
 .page {
     min-width: 1100px;
@@ -6,3 +15,13 @@
     font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
+.page_link {
+    transition: opacity 0.15s linear;
+}
+.page_link:hover {
+    opacity: .3;
+}
+
+.rotation {
+    animation:  rotation-anima 20s linear infinite;
+}
