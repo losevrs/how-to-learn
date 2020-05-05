@@ -12,3 +12,8 @@
 .page_link:hover {
     opacity: .3;
 }
+
+
+div, img, p, section, h2 {
+    border: 1px solid red;
+}
