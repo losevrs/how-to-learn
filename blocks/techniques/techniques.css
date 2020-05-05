@@ -1,7 +1,9 @@
-.digits {
+.techniques {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 80%;
+  align-items: center;
   padding-top: 100px;
-  padding-bottom: 100px;
+  margin: 0 auto;
 }
