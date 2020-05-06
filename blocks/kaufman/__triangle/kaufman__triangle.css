@@ -6,7 +6,7 @@
     background-image: url(../../../images/kaufman/kaufman-triangle.svg);
     background-repeat: no-repeat;
     background-position: left bottom;
-    background-size: 877px;
+    background-size: contain;
     position: absolute;
     z-index: 0;
   }
