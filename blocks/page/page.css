@@ -6,10 +6,3 @@
     font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
-.page-link {
-    transition: opacity 0.15s linear;
-}
-.page-link:hover {
-    opacity: .3;
-}
-
