@@ -5,6 +5,8 @@
   justify-content: flex-start;
   align-items: center;
   margin-right: 100px;
+  list-style-type: none;
+  margin: 0;
 }
 
 .cards__item:nth-child(3n) {
